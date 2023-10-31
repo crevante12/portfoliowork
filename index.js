@@ -23,11 +23,7 @@ app.use((err,req,res,next)=>{
 mongoose.connect('mongodb://localhost:27017/gamedb',{useNewUrlParser: true})
 .then(()=> console.log("Connected to MongoDB"))
 .catch(err => console.error(err));
-try {
-    mongoose.connect(process.env.MONGODB_URI, { useNewUrlParser: true })
-  } catch (error) {
-    throw error 
-  }
+
 
 
 
