@@ -6,17 +6,28 @@ const mongoose = require('mongoose')
 const {expressjwt} = require('express-jwt')
 const cors = require('cors') 
 const path = require("path")
+const { error } = require('console')
 
 
 app.use(express.static(path.join(__dirname, "client", "build")))
 app.use(express.json())
 app.use(morgan('dev'))
 app.use(cors())
-mongoose.connect(
-  'mongodb://localhost:27017/funkoDB',
-  () => console.log('Connected to the DB')
-)
-
+// mongoose.connect(
+//   'mongodb://localhost:27017/funkoDB',
+//   (err) => {
+//   if(err){
+//     throw error
+//   }
+//   console.log("connected to database")
+//   }
+// )
+try {
+  mongoose.connect(process.env.MONGODB_URI, { useNewUrlParser: true })
+} catch (error) {
+  throw error 
+}
+// mongoose.connect(process.env.MONGODB_URI, { useNewUrlParser: true });
 app.use('/auth', require('./routes/authRouter.js'))
 app.use('/api',expressjwt({secret: process.env.SECRET, algorithms:['HS256']}))
 app.use('/api/funko', require('./routes/funkoRouter.js'))
