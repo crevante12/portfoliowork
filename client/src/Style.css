@@ -1,0 +1,578 @@
+body{
+    background-color:rgb(26, 38, 25);
+}
+
+
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: #585448;
+    color:white;
+    padding: 10px;
+    border-radius: 1pc;
+    box-shadow: 10px;
+    border: 3px black;
+}
+
+.logo {
+    height: 72px; 
+    margin-right: 650px;
+}
+
+.nav-links {
+    
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+}
+.title-container{
+    text-align: center;
+    padding:10px;
+    color: #faf7f7;
+    
+}
+.purpose{
+    text-align: left;
+    background-color: #585448;
+    margin-left: 25px;
+    margin-right: 25px;
+     
+    border-radius: 4px;
+    padding: 10px;
+    border: black 10px;
+}
+.mission{
+    text-align: left;
+    background-color:#C51605;
+    box-shadow: 20%;
+    border-radius: 4px;
+    border: black 10px;
+    
+}
+  
+
+  .searchform{
+     
+    margin-left:600px;
+    
+    margin-right: 650px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+   
+ }
+ .searchTip{
+    display: flex;
+    justify-content: center;
+    color: white;
+ }
+ .anime-container{
+    background-color: #4c4241;
+    border-radius: 5px;
+    margin:auto;
+    border: black 10px;
+    box-shadow: black 20px;
+    
+    
+ }
+ .anime-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 8px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: rgba(82, 77, 75, 0.762);
+  }
+  
+  .anime-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: white;
+  }
+  
+  .anime-synopsis {
+    font-size: 1rem;
+    color: #fefcfc;
+  }
+  .searchform {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+  
+  .searchbar {
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 1rem;
+    outline: none;
+  }
+  
+  .searchbar::placeholder {
+    color: #f40505;
+  }
+  
+  .searchbutton {
+    margin-left: 8px;
+    padding: 8px 16px;
+    background-color: #ef0d24;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 0.85rem;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .searchbutton:hover {
+    background-color:orange;
+  }
+  .tipend{
+    display: flex;
+   color: white;
+   
+  }
+  @media screen and (max-width:1210px){
+    body{
+      background-color:rgb(26, 38, 25);
+  }
+  
+  
+  .navbar {
+      display: flex;
+      align-items: center;
+      background-color: #585448;
+      color:white;
+      padding: 10px;
+      border-radius: 1pc;
+      box-shadow: 10px;
+      border: 3px black;
+  }
+  
+  .logo {
+      height: 72px; 
+      margin-right: 290px;
+  }
+  
+  .nav-links {
+      
+      display: flex;
+      justify-content: center;
+      font-size: larger;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .nav-link {
+      text-decoration: none;
+      color: white;
+      padding: 20px;
+  }
+  .title-container{
+      text-align: center;
+      padding:10px;
+      color: #faf7f7;
+      
+  }
+  .purpose{
+      text-align: left;
+      background-color: #585448;
+      margin-left: 25px;
+      margin-right: 25px;
+       
+      border-radius: 4px;
+      padding: 10px;
+      border: black 10px;
+  }
+  .mission{
+      text-align: left;
+      background-color:#C51605;
+      box-shadow: 20%;
+      border-radius: 4px;
+      border: black 10px;
+      
+  }
+    
+  
+    .searchform{
+       
+      margin-left:600px;
+      
+      margin-right: 650px;
+      margin-top: 50px;
+      margin-bottom: 50px;
+     
+   }
+   .searchTip{
+      display: flex;
+      justify-content: center;
+      color: white;
+   }
+   .anime-container{
+      background-color: #4c4241;
+      border-radius: 5px;
+      margin:auto;
+      border: black 10px;
+      box-shadow: black 20px;
+      
+      
+   }
+   .anime-card {
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      padding: 16px;
+      margin: 8px 0;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      background-color: rgba(82, 77, 75, 0.762);
+    }
+    
+    .anime-title {
+      font-size: 1.5rem;
+      font-weight: bold;
+      margin-bottom: 8px;
+      color: white;
+    }
+    
+    .anime-synopsis {
+      font-size: 1rem;
+      color: #fefcfc;
+    }
+    .searchform {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 16px;
+    }
+    
+    .searchbar {
+      padding: 8px;
+      border: none;
+      border-radius: 4px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      font-size: 1rem;
+      outline: none;
+    }
+    
+    .searchbar::placeholder {
+      color: #f40505;
+    }
+    
+    .searchbutton {
+      margin-left: 8px;
+      padding: 8px 16px;
+      background-color: #ef0d24;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      font-size: 0.85rem;
+      cursor: pointer;
+      outline: none;
+    }
+    
+    .searchbutton:hover {
+      background-color:orange;
+    }
+    .tipend{
+      display: flex;
+     color: white;
+     
+    }
+    
+  }
+  @media screen and (max-width: 900px){
+    body{
+        background-color:rgb(26, 38, 25);
+    }
+    
+    
+    .navbar {
+        display: flex;
+        align-items: center;
+        background-color: #585448;
+        color:white;
+        padding: 10px;
+        border-radius: 1pc;
+        box-shadow: 10px;
+        border: 3px black;
+    }
+    
+    .logo {
+        height: 72px; 
+        margin-right: 150px;
+    }
+    
+    .nav-links {
+        
+        display: flex;
+        justify-content: center;
+        font-size: larger;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+    .nav-link {
+        text-decoration: none;
+        color: #faf4f3;
+        padding: 20px;
+        margin-left: 10px;
+    }
+    .title-container{
+        text-align: center;
+        padding:10px;
+        color: #fcf8f8;
+        
+    }
+    .Tipsinfo{
+        color:white;
+    }
+    .purpose{
+        text-align: left;
+        background-color: #585448;
+        margin-left: 25px;
+        margin-right: 25px;
+         
+        border-radius: 4px;
+        padding: 10px;
+        border: black 10px;
+    }
+ 
+    .searchform-container{
+        display: flex;
+        justify-content: center;
+    }
+ 
+    
+      .searchform{
+         
+        margin-left:600px;
+        
+        margin-right: 650px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+       
+     }
+     .anime-container{
+        background-color: #4c4241;
+        border-radius: 5px;
+        margin:auto;
+        border: black 10px;
+        box-shadow: black 20px;
+        
+        
+     }
+     .anime-card {
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        padding: 16px;
+        margin: 8px 0;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        background-color: rgba(82, 77, 75, 0.762);
+      }
+      
+      .anime-title {
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin-bottom: 8px;
+        color: white;
+      }
+      
+      .anime-synopsis {
+        font-size: 1rem;
+        color: #fefcfc;
+      }
+      .searchform {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 16px;
+      }
+      
+      .searchbar {
+        padding: 8px;
+        border: none;
+        border-radius: 4px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        font-size: 1rem;
+        outline: none;
+      }
+      
+      .searchbar::placeholder {
+        color: #060000;
+      }
+      
+      .searchbutton {
+        margin-left: 8px;
+        padding: 8px 16px;
+        background-color: #194704;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        font-size: 0.85rem;
+        cursor: pointer;
+        outline: none;
+      }
+      
+      .searchbutton:hover {
+        background-color:rgb(249, 6, 6);
+      }
+      .tipend{
+        display: flex;
+       color: white;
+       
+      }
+  }
+  @media screen and (max-width: 600px){
+    body{
+        background-color:rgb(26, 38, 25);
+    }
+    
+    
+    .navbar {
+        display: flex;
+        align-items: center;
+        background-color: #585448;
+        color:white;
+        padding: 10px;
+        border-radius: 1pc;
+        box-shadow: 10px;
+        border: 3px black;
+    }
+    
+    .logo {
+        height: 72px; 
+        margin-right: 50px;
+    }
+    
+    .nav-links {
+        
+        display: flex;
+        justify-content: center;
+        font-size: larger;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+    .nav-link {
+        text-decoration: none;
+        color: #f9f1f0;
+        padding: 20px;
+        margin-left: 10px;
+    }
+    .title-container{
+        text-align: center;
+        padding:10px;
+        color: #f6f4f4;
+        
+    }
+    .purpose{
+        text-align: left;
+        background-color: #585448;
+        margin-left: 25px;
+        margin-right: 25px;
+         
+        border-radius: 4px;
+        padding: 10px;
+        border: black 10px;
+    }
+    .mission{
+        text-align: left;
+        background-color:#C51605;
+        box-shadow: 20%;
+        border-radius: 4px;
+        border: black 10px;
+        
+    }
+ 
+    
+      .searchform{
+         
+        margin-left:600px;
+        
+        margin-right: 650px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+       
+     }
+     .anime-container{
+        background-color: #4c4241;
+        border-radius: 5px;
+        margin:auto;
+        border: black 10px;
+        box-shadow: black 20px;
+        
+        
+     }
+     .anime-card {
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        padding: 16px;
+        margin: 8px 0;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        background-color: rgba(82, 77, 75, 0.762);
+      }
+      
+      .anime-title {
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin-bottom: 8px;
+        color: white;
+      }
+      
+      .anime-synopsis {
+        font-size: 1rem;
+        color: #fefcfc;
+      }
+      .searchform {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 16px;
+      }
+      
+      .searchbar {
+        padding: 8px;
+        border: none;
+        border-radius: 4px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        font-size: 1rem;
+        outline: none;
+      }
+      
+      .searchbar::placeholder {
+        color: #080000;
+      }
+      
+      .searchbutton {
+        margin-left: 8px;
+        padding: 8px 16px;
+        background-color: #ef0d24;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        font-size: 0.85rem;
+        cursor: pointer;
+        outline: none;
+      }
+      .searchform-container{
+        display: flex;
+        justify-content: center;
+      }
+      
+      .searchbutton:hover {
+        background-color:orange;
+      }
+      .tipend{
+        display: flex;
+       color: white;
+       
+      }
+      .Tipsinfo{
+        color: white;
+      }
+  }
