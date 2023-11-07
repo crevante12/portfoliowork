@@ -9,7 +9,7 @@ require('dotenv').config()
 // create middle ware that will fire every time automatically
 
 app.use(express.json()) // looks for request body  and turns it in to 'req.body'
-app.use(express.static(path.join(__dirname, "client", "build")))
+app.use(express.static(path.join(__dirname, "client", "dist")))
 // // rountes
 app.use("/api/game",require( "./routes/GameBack.js"))
 
@@ -31,9 +31,9 @@ app.use((err,req,res,next)=>{
 // use app.listen()
 
 app.get("*", (req, res) => {
-    res.sendFile(path.join(__dirname, "client", "build", "index.html"));
+    res.sendFile(path.join(__dirname, "client", "dist", "index.html"));
 });
-app.listen(6000,()=>{
+app.listen(process.env.PORT,()=>{
     console.log("server is running on 5000")
 })
 
